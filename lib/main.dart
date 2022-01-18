@@ -9,14 +9,14 @@ class MySelfIntro extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: "Shun Iwasaki's Portforio",
       theme: ThemeData(
         primarySwatch: customSwatch,
       ),
       home: MyHomePage(title: "Shun Iwasaki's Portfolio"),
     );
   }
-}
+
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key? key, required this.title}) : super(key: key);
