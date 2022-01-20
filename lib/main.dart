@@ -13,7 +13,9 @@ class MySelfIntro extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: customSwatch,
       ),
-      darkTheme: ThemeData.dark(),
+      darkTheme: ThemeData.dark(
+        primarySwatch: customSwatchDark,
+      ),
       themeMode: ThemeMode.system,
       home: MyHomePage(title: "Shun Iwasaki's Portfolio"),
     );
