@@ -17,29 +17,6 @@ class MySelfIntro extends StatelessWidget {
         primarySwatch: customSwatchDark,
       ),
       themeMode: ThemeMode.system,
-      home: MyHomePage(title: "Shun Iwasaki's Portfolio"),
     );
   }
 
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: MyHomePage(title: "Shun Iwasaki's Portfolio"),
-      ),
-      body: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Row(
-          children: <Widget>[
-            SelectableText(
-              '自己紹介',
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
