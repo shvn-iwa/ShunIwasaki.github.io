@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/config/themes.dart';
 
 void main() {
   runApp(MySelfIntro());
